@@ -3,7 +3,7 @@
     const srcImgs: string[] = Object.values(images) as string[];
 </script>
 
-<h1>How I made [Font name]</h1>
+<h1>How I made "Crackly"</h1>
 <p class="page-link"><a href="/font">Get the font</a> <a href="#src-imgs">See source images</a></p>
 
 
@@ -27,19 +27,19 @@
             <ol>
                 <li>
                     <p>Take a photo.</p>
-                    <img src="/font_src_images/1.jpg" alt="1" class="how-img">
+                    <img src="/how_images/step1.webp" alt="1" class="how-img">
                 </li>
                 <li>
                     <p>Cut it out.</p>
-                    <img src="/how_images/step2.png" alt="1" class="how-img">
+                    <img src="/how_images/step2.webp" alt="1" class="how-img">
                 </li>
                 <li>
                     <p>Apply ajustment layers to make it all black.</p>
-                    <img src="/how_images/step3.png" alt="1" class="how-img">
+                    <img src="/how_images/step3.webp" alt="1" class="how-img">
                 </li>
                 <li>
                     <p>Add to corresponding spot in Calligraphr template.</p>
-                    <img src="/how_images/step4.png" alt="1" class="how-img">
+                    <img src="/how_images/step4.webp" alt="1" class="how-img">
                 </li>
                 <li>
                     <em>When that has been done for all charachters. Upload to Calligraphr.</em>
