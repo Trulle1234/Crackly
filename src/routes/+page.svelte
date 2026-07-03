@@ -1,10 +1,12 @@
 <script lang="ts">
+    import { base } from '$app/paths';
+
     const images = import.meta.glob("/src/lib/src_imgs/*", { eager: true, query: "?url", import: "default" });
     const srcImgs: string[] = Object.values(images) as string[];
 </script>
 
 <h1>How I made "Crackly"</h1>
-<p class="page-link"><a href="#src-imgs">See source images</a> <a href="/font">Get the font</a> </p>
+<p class="page-link"><a href="#src-imgs">See source images</a> <a href="{base}/font">Get the font</a> </p>
 
 
 <div class="main-container">
@@ -27,19 +29,19 @@
             <ol>
                 <li>
                     <p>Take a photo.</p>
-                    <img src="/how_images/step1.webp" alt="1" class="how-img">
+                    <img src="{base}/how_images/step1.webp" alt="1" class="how-img">
                 </li>
                 <li>
                     <p>Cut it out.</p>
-                    <img src="/how_images/step2.webp" alt="1" class="how-img">
+                    <img src="{base}/how_images/step2.webp" alt="1" class="how-img">
                 </li>
                 <li>
                     <p>Apply ajustment layers to make it all black.</p>
-                    <img src="/how_images/step3.webp" alt="1" class="how-img">
+                    <img src="{base}/how_images/step3.webp" alt="1" class="how-img">
                 </li>
                 <li>
                     <p>Add to corresponding spot in Calligraphr template.</p>
-                    <img src="/how_images/step4.webp" alt="1" class="how-img">
+                    <img src="{base}/how_images/step4.webp" alt="1" class="how-img">
                 </li>
                 <li>
                     <em>When that has been done for all charachters. Upload to Calligraphr.</em>

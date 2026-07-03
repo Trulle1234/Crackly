@@ -2,6 +2,8 @@ import adapter from '@sveltejs/adapter-static';
 import { sveltekit } from '@sveltejs/kit/vite';
 import { defineConfig } from 'vite';
 
+const isProd = process.env.NODE_ENV === 'production';
+
 export default defineConfig({
 	plugins: [
 		sveltekit({
@@ -13,7 +15,10 @@ export default defineConfig({
 				pages: 'build',
 				assets: 'build',
 				fallback: '404.html'
-			})
+			}),
+			paths: {
+				base: isProd ? '/font-website' : ''
+			}
 		})
 	]
 });
