@@ -1,12 +1,19 @@
 <script lang="ts">
+    import { onMount } from 'svelte';
     import { base } from '$app/paths';
 
     const images = import.meta.glob("/src/lib/src_imgs/*", { eager: true, query: "?url", import: "default" });
     const srcImgs: string[] = Object.values(images) as string[];
+
+    onMount(() => {
+        if (window.location.hash === '#src-imgs') {
+            document.getElementById('src-imgs')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+    });
 </script>
 
 <h1>How I made "Crackly"</h1>
-<p class="page-link"><a href="#src-imgs">See source images</a> <a href="{base}/font">Get the font</a> </p>
+<p class="page-link"><a href="{base}/#src-imgs">See source images</a> <a href="{base}/font">Get the font</a> </p>
 
 
 <div class="main-container">
@@ -54,7 +61,7 @@
         
         <div class="src-imgs-container">
             {#each srcImgs as img}
-                <img src={img} alt="1" class="src-img">
+                <img src={img} alt="Char" class="src-img">
             {/each}
         </div>
 
