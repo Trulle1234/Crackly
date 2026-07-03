@@ -9,6 +9,10 @@
         <p class="font-preview">The quick brown fox jumps over the lazy dog.</p>
 
         <a href="/Crackly sans&serif.ttf" download="Crackly sans&serif.ttf" class="download">Download it</a>
-        <em>The font "Crackly" and all associated source images are licenced under <a href="//creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></em>
+        <hr class="bottom-hr">
+        <em>
+            The font "Crackly" and all associated source images are licenced under <a href="//creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
+            , An <a href="https://github.com/Trulle1234/font-website/blob/main/LICENCE">MIT licence</a> applies to all else.
+        </em>
     </div>
 </div>
