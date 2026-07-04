@@ -12,7 +12,7 @@
         <p class="font-preview">a b c d e f g h i j k l m n o p q r s t u v w x y z å ä ö</p>
         <p class="font-preview">The quick brown fox jumps over the lazy dog.</p>
 
-        <a href="{base}/Crackly sans&serif.ttf" download="Crackly sans&serif.ttf" class="download">Download it</a>
+        <a href="{base}/Crackly-sans&serif.ttf" download="Crackly-sans&serif.ttf" class="download">Download it</a>
         <hr class="bottom-hr">
         <em>
             The font "Crackly" and all associated source images are licenced under <a href="//creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
