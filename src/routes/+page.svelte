@@ -28,7 +28,7 @@
         <h2>How?</h2>
         <p>
             I took photos on my way to and in Thailand. 
-            Then I cut them out, made them B&W and added them to a 
+            Then I cut them out, made them B/W and added them to a 
             <a href="https://www.calligraphr.com/">Calligraphr</a> template in Affinity.
         </p>
 
