@@ -1,15 +1,9 @@
 <script lang="ts">
-    import { onMount } from 'svelte';
     import { asset, resolve } from '$app/paths';
 
-    const images = import.meta.glob("/src/lib/src_imgs/*", { eager: true, query: "?url", import: "default" });
+    const images = Object.fromEntries(Object.entries(import.meta.glob('$lib/src_imgs/*', {eager: true, query: '?url', import: 'default'}))
+    .map(([path, url]) => [path.split("/").pop(), url]));
     const srcImgs: string[] = Object.values(images) as string[];
-
-    onMount(() => {
-        if (window.location.hash === '#src-imgs') {
-            document.getElementById('src-imgs')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        }
-    });
 </script>
 
 <h1>How I made "Crackly"</h1>
@@ -40,6 +34,7 @@
                 </li>
                 <li>
                     <p>Cut it out.</p>
+                    
                     <img src={asset('/how_images/step2.webp')} alt="1" class="how-img">
                 </li>
                 <li>
