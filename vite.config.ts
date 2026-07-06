@@ -17,7 +17,7 @@ export default defineConfig({
 				fallback: '404.html'
 			}),
 			paths: {
-				base: isProd ? '/font-website' : ''
+				base: isProd ? '/font-website' : '/Crackly'
 			}
 		})
 	]
