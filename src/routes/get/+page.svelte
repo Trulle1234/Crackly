@@ -16,7 +16,7 @@
         <hr class="bottom-hr">
         <em>
             The font "Crackly" and all associated source images are licenced under <a href="//creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
-            , An <a href="https://github.com/Trulle1234/font-website/blob/main/LICENCE">MIT licence</a> applies to all else.
+            , An <a href="https://github.com/Trulle1234/Crackly/blob/main/LICENCE.md">MIT licence</a> applies to all else.
         </em>
     </div>
 </div>
