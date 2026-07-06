@@ -7,7 +7,7 @@
 </script>
 
 <h1>How I made "Crackly"</h1>
-<p class="page-link"><a href={resolve("/#src-imgs")}>See source images</a> <a href={resolve("/font")}>Get the font</a> </p>
+<p class="page-link"><a href={resolve("/#src-imgs")}>See source images</a> <a href={resolve("/get")}>Get the font</a> </p>
 
 
 <div class="main-container">
@@ -63,7 +63,7 @@
         <hr class="bottom-hr">
         <em>
             The font "Crackly" and all associated source images are licenced under <a href="//creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
-            , An <a href="https://github.com/Trulle1234/font-website/blob/main/LICENCE">MIT licence</a> applies to all else.
+            , An <a href="https://github.com/Trulle1234/Crackly/blob/main/LICENCE">MIT licence</a> applies to all else.
         </em>
     </div>
 </div>
