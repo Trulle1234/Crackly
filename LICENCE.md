@@ -1,8 +1,10 @@
-The font "Crackly" and all associated source images are licenced under CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+## Copyright (c) 2026 Trulle123
 
-An MIT licence applies to all else:
+The font "Crackly" and all associated source images are licenced under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
-Copyright (c) 2026 Trulle123
+---
+
+### An MIT licence applies to all else:
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
