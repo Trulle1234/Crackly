@@ -15,7 +15,7 @@
         <h2>Why?</h2>
         <p>Hack Club announced the YSWS <a href="https://typeface.hackclub.com/">Typeface</a> 
             and I got the idea to take photos on my trip to Thailand and make a font by using 
-            a bunch of diffrent letters from diffrent stuff.</p>
+            a bunch of different letters from different stuff.</p>
 
         <hr>
 
@@ -38,7 +38,7 @@
                     <img src={asset('/how_images/step2.webp')} alt="1" class="how-img">
                 </li>
                 <li>
-                    <p>Apply ajustment layers to make it all black.</p>
+                    <p>Apply adjustment layers to make it all black.</p>
                     <img src={asset('/how_images/step3.webp')} alt="1" class="how-img">
                 </li>
                 <li>
@@ -46,13 +46,13 @@
                     <img src={asset('/how_images/step4.webp')} alt="1" class="how-img">
                 </li>
                 <li>
-                    <em>When that has been done for all charachters. Upload to Calligraphr.</em>
+                    <em>When that has been done for all characters, upload to Calligraphr.</em>
                 </li>
             </ol>
 
         <hr>
 
-        <h2 id="src-imgs">Source images <em>(Unorderd)</em></h2>
+        <h2 id="src-imgs">Source images <em>(Unordered)</em></h2>
         
         <div class="src-imgs-container">
             {#each srcImgs as img}
@@ -62,8 +62,8 @@
 
         <hr class="bottom-hr">
         <em>
-            The font "Crackly" and all associated source images are licenced under <a href="//creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
-            , An <a href="https://github.com/Trulle1234/Crackly/blob/main/LICENCE.md">MIT licence</a> applies to all else.
+            The font "Crackly" and all associated source images are licensed under <a href="//creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
+            , An <a href="https://github.com/Trulle1234/Crackly/blob/main/LICENSE.md">MIT license</a> applies to all else.
         </em>
     </div>
 </div>

@@ -15,8 +15,8 @@
         <a href={asset("/Crackly-sans&serif.ttf")} download="Crackly-sans&serif.ttf" class="download">Download it</a>
         <hr class="bottom-hr">
         <em>
-            The font "Crackly" and all associated source images are licenced under <a href="//creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
-            , An <a href="https://github.com/Trulle1234/Crackly/blob/main/LICENCE.md">MIT licence</a> applies to all else.
+            The font "Crackly" and all associated source images are licensed under <a href="//creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
+            , An <a href="https://github.com/Trulle1234/Crackly/blob/main/LICENSE.md">MIT license</a> applies to all else.
         </em>
     </div>
 </div>
